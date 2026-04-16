@@ -41,7 +41,7 @@ Se não houver nomes exclusivos, exibir **"Nenhum"**.
 
 ## Código do Desafio
 O código está disponível neste repositório:  
-[Link para o desafio]()
+[Link para o desafio](https://github.com/Douglas-Luiz-de-Oliveira-Rodrigues/construindo-solucoes-com-funcoes-em-python/blob/main/desafios/clientes_exclusivos.py)
 
 ---
 
@@ -87,7 +87,7 @@ Sua tarefa é implementar um programa que encontre o código de um livro a parti
 
 ## Código do Desafio
 O código está disponível neste repositório:  
-[Link para o desafio]()
+[Link para o desafio](https://github.com/Douglas-Luiz-de-Oliveira-Rodrigues/construindo-solucoes-com-funcoes-em-python/blob/main/desafios/busca_livros.py)
 
 ---
 
@@ -134,4 +134,4 @@ Uma única linha com o nome formatado, seguido de `- OK` ou `- ERRO`.
 
 ## Código do Desafio
 O código está disponível neste repositório:  
-[Link para o desafio]()
+[Link para o desafio](https://github.com/Douglas-Luiz-de-Oliveira-Rodrigues/construindo-solucoes-com-funcoes-em-python/blob/main/desafios/cadastro_clientes.py)
