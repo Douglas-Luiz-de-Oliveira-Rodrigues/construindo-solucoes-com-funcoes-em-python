@@ -88,3 +88,50 @@ Sua tarefa é implementar um programa que encontre o código de um livro a parti
 ## Código do Desafio
 O código está disponível neste repositório:  
 [Link para o desafio]()
+
+---
+
+## Funções Reutilizáveis Para Cadastro de Clientes em Python
+
+Você foi contratado por uma consultoria em TI para ajudar a organizar o sistema de cadastro de clientes.  
+O objetivo é criar funções reutilizáveis que centralizem operações como padronizar nomes e validar e-mails, facilitando futuras manutenções e evitando erros.
+
+### Regras de Negócio
+- Receber uma linha contendo **nome completo** e **e-mail**, separados por vírgula e espaço.
+- Validar o e-mail:
+  - Deve conter **exatamente um '@'**
+  - Deve conter pelo menos um **'.'** após o '@'
+- Padronizar o nome:
+  - Primeira letra de cada palavra em maiúsculo
+  - Demais letras em minúsculo
+- Exibir:
+  - `Nome Formatado - OK` se o e-mail for válido
+  - `Nome Formatado - ERRO` caso contrário
+
+### Entrada
+Uma única linha contendo o nome completo e o e-mail, separados por vírgula e espaço.
+
+### Saída
+Uma única linha com o nome formatado, seguido de `- OK` ou `- ERRO`.
+
+### Exemplos
+| Entrada                          | Saída              |
+|----------------------------------|--------------------|
+| ana silva, ana.silva@email.com   | Ana Silva - OK     |
+| joao, joao@email                 | Joao - ERRO        |
+| maria clara, maria@email.com     | Maria Clara - OK   |
+| carlos, carlos@@email.com        | Carlos - ERRO      |
+
+---
+
+## Tecnologias Utilizadas
+- **Python**: implementação da lógica
+- **Funções reutilizáveis**: para validação de e-mail e formatação de nome
+- **Manipulação de strings**: `split`, `title`, `strip`
+- **Estruturas condicionais**: para verificar validade do e-mail
+
+---
+
+## Código do Desafio
+O código está disponível neste repositório:  
+[Link para o desafio]()
